@@ -32,8 +32,7 @@ body, .sans-serif  {  font-family: avenir, 'avenir next', helvetica, 'helvetica 
 
 ## Author
 
-[http://mrmrs.cc - Entire internet gateway to all things mrmrs](http://mrmrs.cc)
-[http://mrmrs.io - Open source projects](http://mrmrs.io)
+[mrmrs](http://mrmrs.io)
 
 ## License
 
