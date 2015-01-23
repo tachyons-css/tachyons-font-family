@@ -1,12 +1,12 @@
 {
   "name": "tachyons-font-family",
   "version": "0.2.2",
-  "style": "font_family.css",
+  "style": "tachyons-font-family.css",
   "homepage": "http://mrmrs.io/tachyons-font-family",
-  "description": "Performance based sass module.",
+  "description": "Performance based css module.",
   "keywords": [
     "oocss",
-    "sass",
+    "rework",
     "css",
     "rwd",
     "design",
