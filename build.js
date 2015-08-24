@@ -20,17 +20,17 @@ var output = postcss([autoprefixer])
   .use(customMedia())
   .process(css, {
     from: "src/tachyons-font-family.css",
-    to: "css/tachyons-font-family.css"
+    to: "tachyons-font-family.css"
   })
   .css
 
-fs.writeFile("css/tachyons-font-family.css", output, 'utf-8')
+fs.writeFile("tachyons-font-family.css", output, 'utf-8')
 
 // Using YUI Compressor for CSS
 new compressor.minify({
     type: 'sqwish',
-    fileIn: 'css/tachyons-font-family.css',
-    fileOut: 'css/tachyons-font-family.min.css',
+    fileIn: 'tachyons-font-family.css',
+    fileOut: 'tachyons-font-family.min.css',
     callback: function(err, min){
     //console.log('Sqwish');
     //console.log(err);
