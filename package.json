@@ -52,6 +52,6 @@
     "postcss-import": "^6.2.0"
   },
   "scripts": {
-    "start": "gulp"
+    "start": "node build.js"
   }
 }
