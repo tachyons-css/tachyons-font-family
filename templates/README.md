@@ -1,33 +1,22 @@
-# TACHYONS-FONT-FAMILY
+# <%= module.name %>
+<%= module.version %>
 
-http://tachyons.io
-
-Work In Progress. Pull requests and open issues welcome.
+<%= module.description %>
 
 ## Install
 ```
-npm install --save-dev tachyons-font-family
+npm install --save-dev <%= module.name %>
 ```
-or download the css on github and include in your project.
+
+or download the css on github and include in your project:
+
+```
+git clone git@github.com:mrmrs/<%= module.name %>
+```
 
 ## The Code
 ```
-
-/*
-
-   Font Family Groups
-
-*/
-
-body, .sans-serif  {  font-family: avenir, 'avenir next', helvetica, 'helvetica neue', arial, sans-serif; }
-.serif       {  font-family: "Calisto MT", georgia, serif; }
-
-// From http://cssfontstack.com
-.code, code        {    font-family: Consolas, monaco, monospace; }
-.serif-bodini {   font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; }
-.serif-calisto {  font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif; }
-.serif-garamond { font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; }
-.serif-times {    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif; }
+<%= srcCSS %>
 ```
 
 ## Author

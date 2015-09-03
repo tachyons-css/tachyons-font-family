@@ -1,33 +1,91 @@
-# TACHYONS-FONT-FAMILY
+# tachyons-font-family
+2.1.0
 
-http://tachyons.io
-
-Work In Progress. Pull requests and open issues welcome.
+Performance based css module.
 
 ## Install
 ```
 npm install --save-dev tachyons-font-family
 ```
-or download the css on github and include in your project.
+
+or download the css on github and include in your project:
+
+```
+git clone git@github.com:mrmrs/tachyons-font-family
+```
 
 ## The Code
 ```
-
 /*
 
-   Font Family Groups
+   FONT FAMILY GROUPS
 
 */
 
-body, .sans-serif  {  font-family: avenir, 'avenir next', helvetica, 'helvetica neue', arial, sans-serif; }
-.serif       {  font-family: "Calisto MT", georgia, serif; }
+.sans-serif {
+  font-family: 'avenir next', avenir,
+                helvetica, 'helvetica neue',
+                arial,
+                sans-serif;
+}
 
-// From http://cssfontstack.com
-.code, code        {    font-family: Consolas, monaco, monospace; }
-.serif-bodini {   font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; }
-.serif-calisto {  font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif; }
-.serif-garamond { font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; }
-.serif-times {    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif; }
+.serif {
+  font-family: times, TimesNewRoman, "Times New Roman",
+               georgia,
+               serif;
+}
+
+/* From http://cssfontstack.com */
+
+code, .code {
+  font-family: Consolas,
+               monaco,
+               monospace;
+}
+
+.helvetica {
+  font-family:  helvetica, 'helvetica neue',
+                arial,
+                sans-serif;
+}
+
+.bodoni {
+  font-family: "Bodoni MT",
+                Didot,
+               "Didot LT STD",
+               "Hoefler Text",
+                Garamond,
+                Times,
+               "Times New Roman",
+                serif;
+}
+
+.calisto {
+  font-family: "Calisto MT",
+               "Bookman Old Style", Bookman,
+               "Goudy Old Style",
+                Garamond,
+               "Hoefler Text",
+               "Bitstream Charter",
+                Georgia,
+                serif;
+}
+
+.garamond {
+  font-family: Garamond,
+               Baskerville, "Baskerville Old Face",
+              "Hoefler Text",
+              "Times New Roman",
+               serif;
+}
+
+.times {
+  font-family: Times, TimesNewRoman, "Times New Roman",
+               Baskerville,
+               Georgia,
+               serif;
+}
+
 ```
 
 ## Author
