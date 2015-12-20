@@ -1,6 +1,6 @@
 {
   "name": "tachyons-font-family",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "style": "tachyons-font-family.css",
   "homepage": "http://github.com/mrmrs/tachyons-font-family",
   "description": "Performance based css module.",
