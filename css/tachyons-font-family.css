@@ -1,0 +1,19 @@
+/*
+
+   FONT FAMILY GROUPS
+
+*/
+.sans-serif { font-family: -apple-system, 'avenir next', avenir, Roboto, helvetica, 'helvetica neue', arial, sans-serif; }
+.serif { font-family: times, TimesNewRoman, "Times New Roman", georgia, serif; }
+/* From http://cssfontstack.com */
+/* Monospaced Typefaces (for code) */
+code, .code { font-family: Consolas, monaco, monospace; }
+/* Sans-Serif Typefaces */
+.helvetica { font-family: helvetica, 'helvetica neue', arial, sans-serif; }
+/* Serif Typefaces */
+.georgia { font-family: georgia, serif; }
+.times { font-family: Times, TimesNewRoman, "Times New Roman", serif; }
+.bodoni { font-family: "Bodoni MT", serif; }
+.calisto { font-family: "Calisto MT", serif; }
+.garamond { font-family: Garamond, serif; }
+
