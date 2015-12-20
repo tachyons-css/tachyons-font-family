@@ -23,6 +23,6 @@
     "tachyons-cli": "^0.3.1"
   },
   "scripts": {
-    "start": "tachyons src/tachyons-base.css > css/tachyons-base.css && tachyons src/tachyons-base.css --minify > css/tachyons-base.min.css && tachyons src/tachyons-base.css --generate-docs --package=../../package.json > readme.md"
+    "start": "tachyons src/tachyons-font-family.css > css/tachyons-font-family.css && tachyons src/tachyons-font-family.css --minify > css/tachyons-font-family.min.css && tachyons src/tachyons-font-family.css --generate-docs --package=../../package.json > readme.md"
   }
 }
