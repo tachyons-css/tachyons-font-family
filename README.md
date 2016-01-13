@@ -1,10 +1,10 @@
-# tachyons-font-family 2.1.0
+# tachyons-font-family 3.0.1
 
 Performance based css module.
 
 #### Stats
 
-330 | 10 | 9
+324 | 10 | 9
 ---|---|---
 bytes | selectors | declarations
 
@@ -61,19 +61,19 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
    FONT FAMILY GROUPS
 
 */
-.sans-serif { font-family: -apple-system, 'avenir next', avenir, Roboto, helvetica, 'helvetica neue', arial, sans-serif; }
-.serif { font-family: times, TimesNewRoman, "Times New Roman", georgia, serif; }
-/* From http://cssfontstack.com */
+.sans-serif { font-family: -apple-system, 'avenir next', avenir, Roboto, Noto, helvetica, 'helvetica neue', Ubuntu, arial, sans-serif; }
+.serif { font-family: times, georgia, serif; }
 /* Monospaced Typefaces (for code) */
+/* From http://cssfontstack.com */
 code, .code { font-family: Consolas, monaco, monospace; }
 /* Sans-Serif Typefaces */
 .helvetica { font-family: helvetica, 'helvetica neue', arial, sans-serif; }
 /* Serif Typefaces */
 .georgia { font-family: georgia, serif; }
-.times { font-family: Times, TimesNewRoman, "Times New Roman", serif; }
+.times { font-family: Times, serif; }
 .bodoni { font-family: "Bodoni MT", serif; }
 .calisto { font-family: "Calisto MT", serif; }
-.garamond { font-family: Garamond, serif; }
+.garamond { font-family: garamond, serif; }
 ```
 
 ## Contributing
