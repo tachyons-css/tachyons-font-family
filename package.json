@@ -1,18 +1,17 @@
 {
   "name": "tachyons-font-family",
-  "version": "4.0.1",
-  "style": "tachyons-font-family.css",
-  "homepage": "http://github.com/tachyons-css/tachyons-font-family",
+  "version": "4.0.2",
+  "style": "src/tachyons-font-family.css",
   "description": "Performance based css module.",
-  "keywords": [],
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/tachyons-css/tachyons-font-family.git"
-  },
-  "bugs": {
-    "url": "https://github.com/tachyons-css/tachyons-font-family/issues",
-    "email": "hi@mrmrs.cc"
-  },
+  "keywords": [
+    "tachyons",
+    "tachyons-css"
+  ],
+  "files": [
+    "src",
+    "css"
+  ],
+  "repository": "tachyons-css/tachyons-font-family",
   "author": {
     "name": "mrmrs",
     "email": "hi@mrmrs.cc",

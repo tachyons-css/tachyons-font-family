@@ -1,4 +1,4 @@
-# tachyons-font-family 3.0.1
+# tachyons-font-family 4.0.2
 
 Performance based css module.
 
