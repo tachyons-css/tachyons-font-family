@@ -4,7 +4,7 @@ Performance based css module.
 
 #### Stats
 
-324 | 10 | 9
+330 | 10 | 9
 ---|---|---
 bytes | selectors | declarations
 
@@ -61,8 +61,8 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
    FONT FAMILY GROUPS
 
 */
-.sans-serif { font-family: -apple-system, 'avenir next', avenir, Roboto, Noto, helvetica, 'helvetica neue', Ubuntu, arial, sans-serif; }
-.serif { font-family: times, georgia, serif; }
+.sans-serif { font-family: -apple-system, 'avenir next', avenir, Roboto, Noto, helvetica, 'helvetica neue', Ubuntu, 'segoe ui', arial, sans-serif; }
+.serif { font-family: georgia, times, serif; }
 /* Monospaced Typefaces (for code) */
 /* From http://cssfontstack.com */
 code, .code { font-family: Consolas, monaco, monospace; }
