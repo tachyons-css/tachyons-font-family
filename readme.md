@@ -1,10 +1,10 @@
-# tachyons-font-family 4.0.2
+# tachyons-font-family 4.0.3
 
 Performance based css module.
 
 #### Stats
 
-330 | 10 | 9
+334 | 12 | 11
 ---|---|---
 bytes | selectors | declarations
 
@@ -61,8 +61,10 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
    FONT FAMILY GROUPS
 
 */
-.sans-serif { font-family: -apple-system, 'avenir next', avenir, Roboto, Noto, helvetica, 'helvetica neue', Ubuntu, 'segoe ui', arial, sans-serif; }
+.sans-serif { font-family: -apple-system, 'avenir next', avenir, helvetica, 'helvetica neue', Ubuntu, 'segoe ui', arial, sans-serif; }
 .serif { font-family: georgia, times, serif; }
+.system-sans-serif { font-family: sans-serif; }
+.system-serif { font-family: serif; }
 /* Monospaced Typefaces (for code) */
 /* From http://cssfontstack.com */
 code, .code { font-family: Consolas, monaco, monospace; }
