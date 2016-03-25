@@ -7,16 +7,16 @@
 
 .sans-serif {
   font-family: -apple-system, BlinkMacSystemFont,
-               'avenir next', avenir,
-               helvetica, 'helvetica neue',
-               Ubuntu,
-               'segoe ui', arial,
+               'Avenir Next', Avenir,
+               'Helvetica Neue', Helvetica,
+               Roboto, Noto,
+               Ubuntu, 'Segoe UI',
                sans-serif;
 }
 
 .serif {
-  font-family: georgia,
-               times,
+  font-family: Georgia,
+               Times,
                serif;
 }
 
@@ -32,9 +32,10 @@
 /* Monospaced Typefaces (for code) */
 
 /* From http://cssfontstack.com */
-code, .code {
+code,
+.code {
   font-family: Consolas,
-               monaco,
+               Monaco,
                monospace;
 }
 
@@ -42,8 +43,7 @@ code, .code {
 /* Sans-Serif Typefaces */
 
 .helvetica {
-  font-family:  helvetica, 'helvetica neue',
-                arial,
+  font-family:  'Helvetica Neue', Helvetica,
                 sans-serif;
 }
 
@@ -51,7 +51,7 @@ code, .code {
 /* Serif Typefaces */
 
 .georgia {
-  font-family: georgia,
+  font-family: Georgia,
                serif;
 }
 
@@ -61,17 +61,16 @@ code, .code {
 }
 
 .bodoni {
-  font-family: "Bodoni MT",
+  font-family: 'Bodoni MT',
                 serif;
 }
 
 .calisto {
-  font-family: "Calisto MT",
+  font-family: 'Calisto MT',
                 serif;
 }
 
 .garamond {
-  font-family: garamond,
+  font-family: Garamond,
                serif;
 }
-
