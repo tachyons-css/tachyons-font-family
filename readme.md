@@ -4,7 +4,7 @@ Performance based css module.
 
 #### Stats
 
-354 | 12 | 11
+373 | 14 | 13
 ---|---|---
 bytes | selectors | declarations
 
@@ -70,12 +70,14 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 code, .code { font-family: Consolas, monaco, monospace; }
 /* Sans-Serif Typefaces */
 .helvetica { font-family: 'helvetica neue', helvetica, sans-serif; }
+.avenir { font-family: 'avenir next', avenir, sans-serif; }
 /* Serif Typefaces */
 .georgia { font-family: georgia, serif; }
 .times { font-family: times, serif; }
 .bodoni { font-family: "Bodoni MT", serif; }
 .calisto { font-family: "Calisto MT", serif; }
 .garamond { font-family: garamond, serif; }
+.baskerville { font-family: garamond, serif; }
 ```
 
 ## Contributing
