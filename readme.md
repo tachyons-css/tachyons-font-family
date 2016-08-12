@@ -1,10 +1,10 @@
-# tachyons-font-family 4.1.3
+# tachyons-font-family 4.2.0
 
 Performance based css module.
 
 #### Stats
 
-373 | 14 | 13
+395 | 15 | 14
 ---|---|---
 bytes | selectors | declarations
 
@@ -36,7 +36,7 @@ Then process the CSS using the [`tachyons-cli`](https://github.com/tachyons-css/
 
 ```sh
 $ npm i -g tachyons-cli
-$ tachyons path/to/css-file.css > dist/t.css
+$ tachyons-cli path/to/css-file.css > dist/t.css
 ```
 
 #### Using the CSS
@@ -68,6 +68,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 /* Monospaced Typefaces (for code) */
 /* From http://cssfontstack.com */
 code, .code { font-family: Consolas, monaco, monospace; }
+.courier { font-family: 'Courier Next', courier, monospace; }
 /* Sans-Serif Typefaces */
 .helvetica { font-family: 'helvetica neue', helvetica, sans-serif; }
 .avenir { font-family: 'avenir next', avenir, sans-serif; }
@@ -77,7 +78,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bodoni { font-family: "Bodoni MT", serif; }
 .calisto { font-family: "Calisto MT", serif; }
 .garamond { font-family: garamond, serif; }
-.baskerville { font-family: garamond, serif; }
+.baskerville { font-family: baskerville, serif; }
 ```
 
 ## Contributing
