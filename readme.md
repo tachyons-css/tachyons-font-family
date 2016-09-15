@@ -1,10 +1,10 @@
-# tachyons-font-family 4.2.4
+# tachyons-font-family 4.2.5
 
 Performance based css module.
 
 #### Stats
 
-395 | 15 | 14
+439 | 16 | 15
 ---|---|---
 bytes | selectors | declarations
 
@@ -55,7 +55,7 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://npmcdn.com/tachyons-font-family@4.2.4/css/tachyons-font-family.min.css" />
+<link rel="stylesheet" href="http://npmcdn.com/tachyons-font-family@4.2.5/css/tachyons-font-family.min.css" />
 ```
 
 ##### Locally
@@ -77,6 +77,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 /*
 
    FONT FAMILY GROUPS
+   Docs: http://tachyons.io/docs/typography/font-family/
 
 */
 .sans-serif { font-family: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif; }
@@ -91,6 +92,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .helvetica { font-family: 'helvetica neue', helvetica, sans-serif; }
 .avenir { font-family: 'avenir next', avenir, sans-serif; }
 /* Serif Typefaces */
+.athelas { font-family: athelas, georgia, serif; }
 .georgia { font-family: georgia, serif; }
 .times { font-family: times, serif; }
 .bodoni { font-family: "Bodoni MT", serif; }
